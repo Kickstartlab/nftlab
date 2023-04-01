@@ -164,7 +164,7 @@ export default function Home() {
                                 Text to NFT
                             </h5>
                             <p>
-                                NFT Lab's user-friendly interface and security features make it easy for users to create and manage their NFTs, even for those without technical expertise. Its focus on empowering creators and providing a diverse marketplace for collectors ensures that it remains at the forefront of the NFT ecosystem.
+                                Text to NFT is a new and exciting feature in NFT Lab that allows creators to turn their written content into a unique, one-of-a-kind NFT. The AI bot in NFT Lab analyzes the text and generates an artistic representation of the content as an image , which can then be minted as an NFT.
                             </p>
                         </div>
 
@@ -175,7 +175,7 @@ export default function Home() {
                                 in NFT Lab
                             </h5>
                             <p>
-                                NFT Lab's user-friendly interface and security features make it easy for users to create and manage their NFTs, even for those without technical expertise. Its focus on empowering creators and providing a diverse marketplace for collectors ensures that it remains at the forefront of the NFT ecosystem.
+                                The creator can then choose to mint the Text to NFT, which will create a unique, one-of-a-kind digital asset that represents ownership of the original written content. The NFT is then added to the creator's digital wallet, and they can choose to sell it on the NFT Lab marketplace or any other marketplace of their choice.
                             </p>
                         </div>
 
@@ -185,7 +185,9 @@ export default function Home() {
                                 Stake your NFTlab NFTS.
                             </h5>
                             <p>
-                                NFT Lab's user-friendly interface and security features make it easy for users to create and manage their NFTs, even for those without technical expertise. Its focus on empowering creators and providing a diverse marketplace for collectors ensures that it remains at the forefront of the NFT ecosystem.
+                                NFTLab holder will be able to stake their nfts created from our nftlab bot like in follow : up to 2 NFTs for holding 0.5% of the total supply or less.
+                                Up to 4 NFTs for holding more then 0.5% of total supply.
+                                Up to 6 NFTs for holding more then 1% of total supply.
                             </p>
                         </div>
 
@@ -197,7 +199,7 @@ export default function Home() {
 
             {/* How it Works */}
 
-            <div id='working' className="mt-8">
+            <div id='bot' className="mt-8">
 
                 <div className="lg:py-20 py-5 lg:px-20 px-5 container mx-auto">
 
@@ -209,7 +211,7 @@ export default function Home() {
 
                     <div>
                         <div className='lg:flex gap-x-12 items-center'>
-                            <img src={work_1} alt="Logo" className='' />
+                            <img data-aos='zoom-in' src={work_1} alt="Logo" className='' />
 
                             <div data-aos="fade-right" className="lg:w-1/2 w-full">
 
@@ -243,14 +245,14 @@ export default function Home() {
 
                             </div>
 
-                            <img src={work_2} alt="Logo" className='' />
+                            <img data-aos='zoom-in' src={work_2} alt="Logo" className='' />
 
                         </div>
 
                         <img src={line_2} alt="Logo" className='right-1/4 -mr-20 -mt-12 absolute lg:block hidden' />
 
                         <div className='lg:flex gap-x-12 items-center lg:mt-40 mt-5'>
-                            <img src={work_3} alt="Logo" className='' />
+                            <img data-aos='zoom-in' src={work_3} alt="Logo" className='' />
 
                             <div data-aos="fade-right" className="lg:w-1/2 w-full">
 
@@ -281,7 +283,7 @@ export default function Home() {
 
                             </div>
 
-                            <img src={work_4} alt="Logo" className='' />
+                            <img data-aos='zoom-in' src={work_4} alt="Logo" className='' />
 
                         </div>
 
@@ -317,11 +319,11 @@ export default function Home() {
 
                 <div className="lg:py-20 py-5 lg:px-20 px-5 container mx-auto">
 
-                    <h3 className="md:text-5xl text-2xl font-dmsans font-semibold text-center capitalize">
+                    <h3 data-aos='fade-down' className="md:text-5xl text-2xl font-dmsans font-semibold text-center capitalize">
                         NFTLab bot uses <span className='text-gradient'> cutting-edge technology </span>
                     </h3>
 
-                    <p className='lg:text-2xl text-gray-50 text-center font-semibold lg:w-8/12 lg:flex mx-auto mt-6'>
+                    <p data-aos='fade-up' className='lg:text-2xl text-gray-50 text-center font-semibold lg:w-8/12 lg:flex mx-auto mt-6'>
                         NFTLab bot uses cutting-edge technology to ensure that the minting process is secure, fast, and reliable.By providing a user-friendly interface and simple step-by-step instructions, the bot makes it easy for anyone
                         to mint their own NFTs and get involved in the exciting world of
                         digital ownership.
@@ -351,7 +353,7 @@ export default function Home() {
                                 <button className='rounded-lg border-2 border-gray-100 py-1 px-4 flex items-center gap-x-3 text-gray-100 md:text-lg text-sm'>
 
                                     <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.9104 13.2849V7.98151C0.9104 6.02884 1.60077 4.36214 2.98152 2.98139C4.36226 1.60065 6.02897 0.910278 7.98163 0.910278H18.5885C20.5411 0.910278 22.2079 1.60065 23.5886 2.98139C24.9693 4.36214 25.6597 6.02884 25.6597 7.98151V18.5884C25.6597 20.541 24.9693 22.2077 23.5886 23.5885C22.2079 24.9692 20.5411 25.6596 18.5885 25.6596H7.98163C6.02897 25.6596 4.36226 24.9692 2.98152 23.5885C1.60077 22.2077 0.9104 20.541 0.9104 18.5884V13.2849Z" fill="#F13BFA" />
+                                        <path fillRule="evenodd" clipRule="evenodd" d="M0.9104 13.2849V7.98151C0.9104 6.02884 1.60077 4.36214 2.98152 2.98139C4.36226 1.60065 6.02897 0.910278 7.98163 0.910278H18.5885C20.5411 0.910278 22.2079 1.60065 23.5886 2.98139C24.9693 4.36214 25.6597 6.02884 25.6597 7.98151V18.5884C25.6597 20.541 24.9693 22.2077 23.5886 23.5885C22.2079 24.9692 20.5411 25.6596 18.5885 25.6596H7.98163C6.02897 25.6596 4.36226 24.9692 2.98152 23.5885C1.60077 22.2077 0.9104 20.541 0.9104 18.5884V13.2849Z" fill="#F13BFA" />
                                     </svg>
 
                                     Marketing
@@ -361,7 +363,7 @@ export default function Home() {
                                 <button className='rounded-lg border-2 border-gray-100 py-1 px-4 flex items-center gap-x-3 text-gray-100 md:text-lg text-sm'>
 
                                     <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.9104 13.2849V7.98151C0.9104 6.02884 1.60077 4.36214 2.98152 2.98139C4.36226 1.60065 6.02897 0.910278 7.98163 0.910278H18.5885C20.5411 0.910278 22.2079 1.60065 23.5886 2.98139C24.9693 4.36214 25.6597 6.02884 25.6597 7.98151V18.5884C25.6597 20.541 24.9693 22.2077 23.5886 23.5885C22.2079 24.9692 20.5411 25.6596 18.5885 25.6596H7.98163C6.02897 25.6596 4.36226 24.9692 2.98152 23.5885C1.60077 22.2077 0.9104 20.541 0.9104 18.5884V13.2849Z" fill="#E690F3" />
+                                        <path fillRule="evenodd" clipRule="evenodd" d="M0.9104 13.2849V7.98151C0.9104 6.02884 1.60077 4.36214 2.98152 2.98139C4.36226 1.60065 6.02897 0.910278 7.98163 0.910278H18.5885C20.5411 0.910278 22.2079 1.60065 23.5886 2.98139C24.9693 4.36214 25.6597 6.02884 25.6597 7.98151V18.5884C25.6597 20.541 24.9693 22.2077 23.5886 23.5885C22.2079 24.9692 20.5411 25.6596 18.5885 25.6596H7.98163C6.02897 25.6596 4.36226 24.9692 2.98152 23.5885C1.60077 22.2077 0.9104 20.541 0.9104 18.5884V13.2849Z" fill="#E690F3" />
                                     </svg>
 
                                     Development
@@ -371,16 +373,16 @@ export default function Home() {
 
                         </div>
 
-                        <div className='flex items-center lg:my-0 mt-16 lg:ml-0 ml-8'>
+                        <div className='flex items-center lg:my-0 mt-16 mb-5 lg:ml-0 ml-8'>
 
-                            <svg className='absolute h-96 -ml-12' width="228" height="455" viewBox="0 0 228 455" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg data-aos='fade-in' className='absolute h-96 -ml-12' width="228" height="455" viewBox="0 0 228 455" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M227.578 0C197.74 -3.55814e-07 168.194 5.87703 140.627 17.2955C113.061 28.714 88.013 45.4504 66.9144 66.549C45.8157 87.6477 29.0794 112.695 17.6609 140.262C6.24238 167.829 0.365355 197.375 0.365356 227.213C0.365357 257.051 6.24239 286.596 17.6609 314.163C29.0794 341.73 45.8158 366.778 66.9144 387.876C88.013 408.975 113.061 425.711 140.627 437.13C168.194 448.548 197.74 454.425 227.578 454.425V440.634C199.551 440.634 171.799 435.114 145.905 424.388C120.012 413.663 96.4841 397.942 76.6661 378.124C56.8481 358.306 41.1275 334.779 30.4021 308.885C19.6767 282.992 14.1563 255.24 14.1563 227.213C14.1563 199.186 19.6767 171.433 30.4021 145.54C41.1275 119.646 56.8481 96.1188 76.6661 76.3007C96.4841 56.4827 120.012 40.7622 145.905 30.0367C171.799 19.3113 199.551 13.791 227.578 13.791V0Z" fill="#F13BFA" />
                             </svg>
 
-                            <div className='w-40 h-80 bg-purple-100 circle-half text-white-100 text-2xl font-semibold flex items-center justify-center'>
+                            <div data-aos='zoom-in' className='w-40 h-80 bg-purple-100 circle-half text-white-100 text-2xl font-semibold flex items-center justify-center'>
                                 2.5%
                             </div>
-                            <div className='w-32 h-64 bg-purple-50 circle-half-1 text-white-100 text-2xl font-semibold flex items-center justify-center'>
+                            <div data-aos='fade-right' className='w-32 h-64 bg-purple-50 circle-half-1 text-white-100 text-2xl font-semibold flex items-center justify-center'>
                                 2.5%
                             </div>
                         </div>
