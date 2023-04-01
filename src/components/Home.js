@@ -51,8 +51,8 @@ export default function Home() {
                     <div className="flex flex-col justify-center items-center gap-y-12 lg:py-24 py-6">
                         <div className="text-center lg:w-8/12">
 
-                            <div className='flex items-center gap-x-5'>
-                                <div>
+                            <div className=''>
+                                <div className='absolute -ml-8  lg:block hidden'>
                                     <img src={star} alt="Logo" className='animate-ping' />
                                     <img src={star_1} alt="Logo" className='ml-6 animate-ping' />
                                 </div>
@@ -71,7 +71,7 @@ export default function Home() {
                                     With the power of AI technology, NFT Lab provides a fast, secure, and reliable platform for minting, buying, and selling NFTs.
                                 </p>
 
-                                <div>
+                                <div className='absolute right-1/4 -mr-44 lg:block hidden'>
                                     <img src={star} alt="Logo" className='animate-ping' />
                                     <img src={star_2} alt="Logo" className='-translate-x-10 animate-ping' />
                                 </div>

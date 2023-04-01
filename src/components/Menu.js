@@ -36,7 +36,7 @@ export default function Menu() {
       </div>
 
       <div className="lg:hidden flex items-center justify-between pt-5 font-montserat">
-        <a href="/" className="logo lg:my-12 flex items-end gap-x-4">
+        <a href="/" className="logo lg:my-12 flex items-end gap-x-2">
           <img src={logo} alt="Logo" />
           <h1 className='text-2xl font-dmsans font-bold'>NFTLab</h1>
         </a>
@@ -56,7 +56,7 @@ export default function Menu() {
           <div className="mt-3 px-3 mb-12">
             <a href="/" className="logo lg:my-12 flex items-end gap-x-4">
               <img src={logo} alt="Logo" />
-              <h1 className='text-4xl font-dmsans font-bold'>NFTLab</h1>
+              <h1 className='text-3xl font-dmsans font-bold'>NFTLab</h1>
             </a>
           </div>
           <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center">
