@@ -13,7 +13,7 @@ export default function Footer() {
     <div className="font-dmsans py-8 bg-white-50">
       <footer data-aos="zoom-in" className='container mx-auto lg:px-20 font-montserat px-5'>
 
-        <div className='grid lg:grid-cols-8 md:grid-cols-3 grid-cols-1 items-baseline gap-6 justify-center justify-items-center'>
+        <div className='grid lg:grid-cols-7 md:grid-cols-3 grid-cols-1 items-baseline gap-12'>
           <div className='col-span-2 space-y-3'>
             <a href='/'>
               <img src={logo_1} alt=''></img>
@@ -42,7 +42,7 @@ export default function Footer() {
 
           </div>
 
-          <div>
+          <div className='col-span-1'>
             <h5 className='text-xl font-semibold'>
               Maketplace
             </h5>
@@ -60,7 +60,7 @@ export default function Footer() {
 
           </div>
 
-          <div>
+          <div className='col-span-1'>
             <h5 className='text-xl font-semibold'>
               Stats
             </h5>
@@ -78,7 +78,7 @@ export default function Footer() {
 
           </div>
 
-          <div>
+          <div className='col-span-1'>
             <h5 className='text-xl font-semibold'>
               Resoure
             </h5>
@@ -96,7 +96,7 @@ export default function Footer() {
 
           </div>
 
-          <div>
+          {/* <div className='col-span-1'>
             <h5 className='text-xl font-semibold'>
               My account
             </h5>
@@ -108,8 +108,7 @@ export default function Footer() {
                 My wallet
               </a>
             </div>
-
-          </div>
+          </div> */}
 
           <div className='col-span-2'>
             <h5 className='text-xl font-semibold'>
