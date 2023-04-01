@@ -230,23 +230,44 @@ export default function Home() {
 
                         <img src={line_1} alt="Logo" className='right-1/4 -mr-20 -mt-36 absolute lg:block hidden' />
 
-                        <div className='lg:flex gap-x-12 items-center justify-end mt-16'>
+                        <div className='lg:block hidden'>
+                            <div className='lg:flex gap-x-12 items-center justify-end mt-16'>
 
-                            <div data-aos="fade-left" className="lg:w-1/3 w-full text-right">
+                                <div data-aos="fade-left" className="lg:w-1/3 w-full text-right">
 
-                                <h2 className='md:text-3xl text-xl font-bold '>
-                                    Next Comes Funding
-                                </h2>
+                                    <h2 className='md:text-3xl text-xl font-bold '>
+                                        Next Comes Funding
+                                    </h2>
 
-                                <p className='py-5 font-semibold text-lg text-gray-50'>
-                                    User adds funds to wallet (mint price + gas).the bot can
-                                    help them with the funding and also do it for them
-                                </p>
+                                    <p className='py-5 font-semibold text-lg text-gray-50'>
+                                        User adds funds to wallet (mint price + gas).the bot can
+                                        help them with the funding and also do it for them
+                                    </p>
+
+                                </div>
+
+                                <img data-aos='zoom-in' src={work_2} alt="Logo" className='' />
 
                             </div>
+                        </div>
 
-                            <img data-aos='zoom-in' src={work_2} alt="Logo" className='' />
+                        <div className='lg:hidden block'>
+                            <div className='lg:flex gap-x-12 items-center justify-end lg:mt-16'>
+                                <img data-aos='zoom-in' src={work_2} alt="Logo" className='' />
 
+                                <div data-aos="fade-left" className="lg:w-1/3 w-full text-right">
+
+                                    <h2 className='md:text-3xl text-xl font-bold '>
+                                        Next Comes Funding
+                                    </h2>
+
+                                    <p className='py-5 font-semibold text-lg text-gray-50'>
+                                        User adds funds to wallet (mint price + gas).the bot can
+                                        help them with the funding and also do it for them
+                                    </p>
+
+                                </div>
+                            </div>
                         </div>
 
                         <img src={line_2} alt="Logo" className='right-1/4 -mr-20 -mt-12 absolute lg:block hidden' />
@@ -269,22 +290,41 @@ export default function Home() {
 
                         <img src={line_1} alt="Logo" className='right-1/4 -mr-20 -mt-36 absolute lg:block hidden' />
 
-                        <div className='lg:flex gap-x-12 items-center justify-end lg:mt-16 mt-6'>
+                        <div className='lg:block hidden'>
+                            <div className='lg:flex gap-x-12 items-center justify-end lg:mt-16 mt-6'>
 
-                            <div data-aos="fade-left" className="lg:w-1/2 w-full text-right">
+                                <div data-aos="fade-left" className="lg:w-1/2 w-full text-right">
 
-                                <h2 className='md:text-3xl text-xl font-bold '>
-                                    Bot asks which wallet to mint to
-                                </h2>
+                                    <h2 className='md:text-3xl text-xl font-bold '>
+                                        Bot asks which wallet to mint to
+                                    </h2>
 
-                                <p className='py-5 font-semibold text-lg text-gray-50'>
-                                    During the minting process, the bot will prompt the user to select the wallet to which the NFT will be minted.
-                                </p>
+                                    <p className='py-5 font-semibold text-lg text-gray-50'>
+                                        During the minting process, the bot will prompt the user to select the wallet to which the NFT will be minted.
+                                    </p>
+
+                                </div>
+
+                                <img data-aos='zoom-in' src={work_4} alt="Logo" className='' />
 
                             </div>
+                        </div>
 
-                            <img data-aos='zoom-in' src={work_4} alt="Logo" className='' />
+                        <div className='lg:hidden block'>
+                            <div className='lg:flex gap-x-12 items-center justify-end lg:mt-16 mt-6'>
+                                <img data-aos='zoom-in' src={work_4} alt="Logo" className='' />
 
+                                <div data-aos="fade-left" className="lg:w-1/2 w-full text-right">
+                                    <h2 className='md:text-3xl text-xl font-bold '>
+                                        Bot asks which wallet to mint to
+                                    </h2>
+
+                                    <p className='py-5 font-semibold text-lg text-gray-50'>
+                                        During the minting process, the bot will prompt the user to select the wallet to which the NFT will be minted.
+                                    </p>
+
+                                </div>
+                            </div>
                         </div>
 
                         <img src={work} alt="Logo" className='right-0 absolute mt-32 lg:block hidden -z-10' />
