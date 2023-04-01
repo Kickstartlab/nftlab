@@ -167,9 +167,9 @@ export default function Home() {
                                 NFT Lab's user-friendly interface and security features make it easy for users to create and manage their NFTs, even for those without technical expertise. Its focus on empowering creators and providing a diverse marketplace for collectors ensures that it remains at the forefront of the NFT ecosystem.
                             </p>
                         </div>
-                        <img src={diff} alt="Logo" className='left-0 absolute lg:block hidden -z-10' />
 
                     </div>
+                    <img src={diff} alt="Logo" className='left-0 absolute lg:block hidden -mt-44 -z-10' />
 
                 </div>
             </div>
