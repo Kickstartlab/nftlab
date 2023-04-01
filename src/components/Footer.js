@@ -13,7 +13,7 @@ export default function Footer() {
     <div className="font-dmsans py-8 bg-white-50">
       <footer data-aos="zoom-in" className='container mx-auto lg:px-20 font-montserat px-5'>
 
-        <div className='grid lg:grid-cols-6 md:grid-cols-3 grid-cols-1 items-baseline gap-12 justify-center justify-items-center'>
+        <div className='grid lg:grid-cols-8 md:grid-cols-3 grid-cols-1 items-baseline gap-6 justify-center justify-items-center'>
           <div className='col-span-2 space-y-3'>
             <a href='/'>
               <img src={logo_1} alt=''></img>
@@ -109,6 +109,15 @@ export default function Footer() {
               </a>
             </div>
 
+          </div>
+
+          <div className='col-span-2'>
+            <h5 className='text-xl font-semibold'>
+              Subscribe Us
+            </h5>
+            <p className='text-gray-50 pt-5'>
+              Signup for our newsletter to get the latest news in your inbox.
+            </p>
           </div>
         </div>
 
