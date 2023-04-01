@@ -19,7 +19,7 @@
 }
 
 .line {
-  background: #8350DF;
+  background: #3749E9;
   animation: line 6s 5s infinite linear;
 }
 
@@ -30,5 +30,18 @@
 
   100% {
     width: 100%;
+  }
+}
+
+.rotate {
+  animation: 1s linear infinite rotate;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg)
+  }
+  to {
+    transform: rotate(90deg)
   }
 }

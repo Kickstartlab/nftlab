@@ -29,7 +29,7 @@ export default function Menu() {
         </nav>
 
         <a href="/">
-          <button className="bg-white-100 rounded-full py-3 lg:px-8 px-4 mt-5 font-semibold border">
+          <button className="bg-white-100 rounded-full py-3 lg:px-8 px-4 mt-5 font-semibold border  hover:border-blue-100 hover:bg-blue-100 hover:text-white-100">
             Connect wallet
           </button>
         </a>

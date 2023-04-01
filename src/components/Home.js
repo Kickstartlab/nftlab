@@ -2,6 +2,10 @@ import React, { useEffect } from 'react'
 import Footer from './Footer'
 import Menu from './Menu'
 import star from '../assets/star.png';
+import star_1 from '../assets/star_1.png';
+import star_2 from '../assets/star_2.png';
+import who from '../assets/who.png';
+
 import side from '../assets/side.png';
 import side_2 from '../assets/side_2.png';
 import work from '../assets/work.png';
@@ -47,26 +51,41 @@ export default function Home() {
                     <div className="flex flex-col justify-center items-center gap-y-12 lg:py-24 py-6">
                         <div className="text-center lg:w-8/12">
 
-                            <h2 data-aos='fade-up' className='md:text-6xl text-3xl font-dmsans font-bold capitalize'>
-                                revolutionising the way You interact with the world of
-                            </h2>
+                            <div className='flex items-center gap-x-5'>
+                                <div>
+                                    <img src={star} alt="Logo" className='animate-ping' />
+                                    <img src={star_1} alt="Logo" className='ml-6 animate-ping' />
+                                </div>
+
+                                <h2 data-aos='fade-up' className='md:text-6xl text-3xl font-dmsans font-bold capitalize'>
+                                    revolutionising the way You interact with the world of
+                                </h2>
+                            </div>
+
                             <h2 data-aos='fade-up' className='md:text-6xl text-3xl font-dmsans font-bold capitalize text-gradient pb-2'>
                                 digital art
                             </h2>
 
-                            <p data-aos='fade-out' className='pt-8 pb-6 lg:text-xl leading-loose lg:w-10/12 lg:flex mx-auto text-gray-50 font-semibold'>
-                                With the power of AI technology, NFT Lab provides a fast, secure, and reliable platform for minting, buying, and selling NFTs.
-                            </p>
+                            <div data-aos='fade-down' className='flex items-center gap-x-8'>
+                                <p data-aos='fade-out' className='pt-8 pb-6 lg:text-xl leading-loose lg:w-10/12 lg:flex mx-auto text-gray-50 font-semibold'>
+                                    With the power of AI technology, NFT Lab provides a fast, secure, and reliable platform for minting, buying, and selling NFTs.
+                                </p>
 
-                            <div data-aos='zoom-in' className="flex items-center justify-center lg:gap-12 gap-6 mx-auto">
+                                <div>
+                                    <img src={star} alt="Logo" className='animate-ping' />
+                                    <img src={star_2} alt="Logo" className='-translate-x-10 animate-ping' />
+                                </div>
+                            </div>
+
+                            <div data-aos='zoom-in' className="flex items-center justify-center gap-6 mx-auto">
                                 <a href="/">
-                                    <button className="border py-2 text-lg md:px-8 px-3 rounded-full font-semibold mt-5">
+                                    <button className="border border-gray-100 hover:border-blue-100 hover:bg-blue-100 hover:text-white-100 py-2 text-lg md:px-8 px-3 rounded-full font-semibold mt-5">
                                         Explore now
                                     </button>
                                 </a>
 
                                 <a href="/">
-                                    <button className="text-white-100 py-2 text-lg md:px-14 px-5 rounded-full font-semibold mt-5 bg-blue-100 shadow-lg">
+                                    <button className="text-white-100 py-2 hover:border hover:border-gray-100 hover:bg-white-100 hover:text-gray-200 text-lg md:px-14 px-5 rounded-full font-semibold mt-5 bg-blue-100 shadow-lg">
                                         Create
                                     </button>
                                 </a>
@@ -87,9 +106,11 @@ export default function Home() {
                         <img src={and} alt="Logo" className='' />
                     </div>
 
+                    <img src={who} alt="Logo" className='left-0 absolute lg:block hidden -mt-44 -z-10' />
+
                     <div className="lg:flex block justify-center items-center gap-x-44 py-12">
 
-                        <div data-aos="fade-left" className="lg:w-1/2 w-full">
+                        <div data-aos="fade-right" className="lg:w-1/2 w-full">
 
                             <h2 className='md:text-5xl text-3xl font-bold '>
                                 Who Are We?
@@ -121,11 +142,11 @@ export default function Home() {
 
             <div id='features' className="lg:px-20 px-5 lg:py-20 py-5">
                 <div className='container mx-auto'>
-                    <h3 className="md:text-5xl text-2xl font-dmsans font-semibold text-center capitalize">
+                    <h3 data-aos='fade-down' className="md:text-5xl text-2xl font-dmsans font-semibold text-center capitalize">
                         How we are <span className='text-gradient'>Different</span>?
                     </h3>
 
-                    <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 items-start mt-8'>
+                    <div data-aos='fade-out' className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 items-start mt-8'>
 
                         <div className='flex flex-col items-center justify-center text-center bg-white-100 shadow-custom rounded-xl py-8 px-6 space-y-5 hover:border-2 hover:border-blue-100'>
                             <img src={dif_1} alt="Logo" className='' />
@@ -327,7 +348,7 @@ export default function Home() {
                             </p>
 
                             <div className='flex items-center gap-x-6 mt-5'>
-                                <button className='rounded-lg border-2 border-gray-100 py-1 px-4 flex items-center gap-x-3 text-gray-100 md:text-lg'>
+                                <button className='rounded-lg border-2 border-gray-100 py-1 px-4 flex items-center gap-x-3 text-gray-100 md:text-lg text-sm'>
 
                                     <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M0.9104 13.2849V7.98151C0.9104 6.02884 1.60077 4.36214 2.98152 2.98139C4.36226 1.60065 6.02897 0.910278 7.98163 0.910278H18.5885C20.5411 0.910278 22.2079 1.60065 23.5886 2.98139C24.9693 4.36214 25.6597 6.02884 25.6597 7.98151V18.5884C25.6597 20.541 24.9693 22.2077 23.5886 23.5885C22.2079 24.9692 20.5411 25.6596 18.5885 25.6596H7.98163C6.02897 25.6596 4.36226 24.9692 2.98152 23.5885C1.60077 22.2077 0.9104 20.541 0.9104 18.5884V13.2849Z" fill="#F13BFA" />
@@ -337,7 +358,7 @@ export default function Home() {
 
                                 </button>
 
-                                <button className='rounded-lg border-2 border-gray-100 py-1 px-4 flex items-center gap-x-3 text-gray-100 md:text-lg'>
+                                <button className='rounded-lg border-2 border-gray-100 py-1 px-4 flex items-center gap-x-3 text-gray-100 md:text-lg text-sm'>
 
                                     <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M0.9104 13.2849V7.98151C0.9104 6.02884 1.60077 4.36214 2.98152 2.98139C4.36226 1.60065 6.02897 0.910278 7.98163 0.910278H18.5885C20.5411 0.910278 22.2079 1.60065 23.5886 2.98139C24.9693 4.36214 25.6597 6.02884 25.6597 7.98151V18.5884C25.6597 20.541 24.9693 22.2077 23.5886 23.5885C22.2079 24.9692 20.5411 25.6596 18.5885 25.6596H7.98163C6.02897 25.6596 4.36226 24.9692 2.98152 23.5885C1.60077 22.2077 0.9104 20.541 0.9104 18.5884V13.2849Z" fill="#E690F3" />
@@ -379,7 +400,7 @@ export default function Home() {
 
                 <div className="lg:mt-12 mt-6 lg:p-12 p-6">
 
-                    <div className="h-1 w-full bg-blue-50">
+                    <div className="h-1 w-full bg-white-50">
 
                     </div>
 
@@ -497,12 +518,12 @@ export default function Home() {
 
                         <div className="flex items-center gap-8 mx-auto">
                             <a href="/">
-                                <button className="text-white-100 py-2 md:px-8 px-3 rounded-full font-semibold mt-5 bg-blue-100 shadow-lg">
+                                <button className="text-white-100 py-2 md:px-8 px-3 rounded-full font-semibold mt-5 bg-blue-100 shadow-lg hover:border hover:bg-white-100 hover:text-gray-200">
                                     Creat Item
                                 </button>
                             </a>
                             <a href="/">
-                                <button className="border py-2 md:px-6 px-3 rounded-full font-semibold mt-5">
+                                <button className="border py-2 md:px-6 px-3 rounded-full font-semibold mt-5 hover:border-blue-100 hover:bg-blue-100 hover:text-white-100">
                                     Discover more
                                 </button>
                             </a>

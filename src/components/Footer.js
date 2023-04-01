@@ -13,7 +13,7 @@ export default function Footer() {
     <div className="font-dmsans py-8 bg-white-50">
       <footer data-aos="zoom-in" className='container mx-auto lg:px-20 font-montserat px-5'>
 
-        <div className='grid lg:grid-cols-7 md:grid-cols-3 grid-cols-1 items-baseline gap-12 justify-center justify-items-center'>
+        <div className='grid lg:grid-cols-6 md:grid-cols-3 grid-cols-1 items-baseline gap-12 justify-center justify-items-center'>
           <div className='col-span-2 space-y-3'>
             <a href='/'>
               <img src={logo_1} alt=''></img>
