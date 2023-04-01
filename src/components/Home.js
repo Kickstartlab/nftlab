@@ -54,7 +54,7 @@ export default function Home() {
                                 digital art
                             </h2>
 
-                            <p data-aos='fade-out' className='pt-8 pb-6 lg:text-xl leading-loose lg:w-10/12 lg:flex mx-auto'>
+                            <p data-aos='fade-out' className='pt-8 pb-6 lg:text-xl leading-loose lg:w-10/12 lg:flex mx-auto text-gray-50 font-semibold'>
                                 With the power of AI technology, NFT Lab provides a fast, secure, and reliable platform for minting, buying, and selling NFTs.
                             </p>
 
