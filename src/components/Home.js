@@ -5,7 +5,6 @@ import star from '../assets/star.png';
 import star_1 from '../assets/star_1.png';
 import star_2 from '../assets/star_2.png';
 import who from '../assets/who.png';
-
 import side from '../assets/side.png';
 import side_2 from '../assets/side_2.png';
 import work from '../assets/work.png';
@@ -42,7 +41,7 @@ export default function Home() {
 
             {/* top section */}
 
-            <img src={top} className='absolute top-0'></img>
+            <img src={top} alt='top' className='absolute top-0'></img>
 
             <div className="lg:px-20 px-5 bg-top relative z-20">
                 <div className='container mx-auto'>
@@ -233,7 +232,7 @@ export default function Home() {
                         <div className='lg:block hidden'>
                             <div className='lg:flex gap-x-12 items-center justify-end mt-16'>
 
-                                <div data-aos="fade-left" className="lg:w-1/3 w-full text-right">
+                                <div data-aos="fade-left" className="lg:w-1/3 w-full lg:text-right">
 
                                     <h2 className='md:text-3xl text-xl font-bold '>
                                         Next Comes Funding
@@ -255,7 +254,7 @@ export default function Home() {
                             <div className='lg:flex gap-x-12 items-center justify-end lg:mt-16'>
                                 <img data-aos='zoom-in' src={work_2} alt="Logo" className='' />
 
-                                <div data-aos="fade-left" className="lg:w-1/3 w-full text-right">
+                                <div data-aos="fade-left" className="lg:w-1/3 w-full lg:text-right">
 
                                     <h2 className='md:text-3xl text-xl font-bold '>
                                         Next Comes Funding
@@ -293,7 +292,7 @@ export default function Home() {
                         <div className='lg:block hidden'>
                             <div className='lg:flex gap-x-12 items-center justify-end lg:mt-16 mt-6'>
 
-                                <div data-aos="fade-left" className="lg:w-1/2 w-full text-right">
+                                <div data-aos="fade-left" className="lg:w-1/2 w-full lg:text-right">
 
                                     <h2 className='md:text-3xl text-xl font-bold '>
                                         Bot asks which wallet to mint to
@@ -314,7 +313,7 @@ export default function Home() {
                             <div className='lg:flex gap-x-12 items-center justify-end lg:mt-16 mt-6'>
                                 <img data-aos='zoom-in' src={work_4} alt="Logo" className='' />
 
-                                <div data-aos="fade-left" className="lg:w-1/2 w-full text-right">
+                                <div data-aos="fade-left" className="lg:w-1/2 w-full lg:text-right">
                                     <h2 className='md:text-3xl text-xl font-bold '>
                                         Bot asks which wallet to mint to
                                     </h2>
